@@ -54,7 +54,7 @@ Prepare Reference Images:
 
 ## Project Structure
 *  **main.py:** Entry point of the application.
-*  **face_recognition_app.py:** Core application logic, including camera handling and threading setup.
+*  **face_recognition.py:** Core application logic, including camera handling and threading setup.
 *  **face_detector.py:** Handles face detection (using RetinaFace) and initiates recognition for each detected face.
 *  **face_processor.py:** Wrapper for the DeepFace recognition logic.
 *  **result_renderer.py:** Handles drawing bounding boxes, labels, and status information onto the video frame.
